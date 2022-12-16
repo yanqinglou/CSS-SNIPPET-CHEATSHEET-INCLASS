@@ -1,0 +1,66 @@
+:root{
+    --purlefont: purple;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: darkgrey;
+}
+#header-h1{
+    text-align: center;
+    color:var(--purlefont);
+}
+
+#header-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex-shrink: 1;
+    background-color: darkgray;
+}
+
+h2{
+    border: 2px solid white;
+    color:var(--purlefont);
+    border-radius: 5px;
+    position:relative;
+    top:-30px;
+    margin:0;
+    padding:0;
+}
+
+.command{
+    flex: 4;
+  background-color: darkgray;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+    border: 1px dashed white;
+    padding: 20px;
+    flex: 0 0 400px;
+    margin: 40px;
+} 
+
+.code-box{
+    color:white;
+}
+
+footer{
+    background-color: darkgray;
+    text-align: center;
+}
